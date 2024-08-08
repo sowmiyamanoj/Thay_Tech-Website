@@ -2,13 +2,13 @@ import React, { useEffect, useRef } from 'react';
 import './Carousel.css';
 
 const carouselData = [
-    { src: '/img1.jpg', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' },
-    { src: '/img2.jpg', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' },
-    { src: '/img3.jpg', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' },
-    { src: '/img4.jpg', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' },
-    { src: '/img5.jpg', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' },
-    { src: '/img6.jpg', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' },
-    { src: '/img7.jpg', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' }
+    { src: '/img1.avif', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' },
+    { src: '/img2.avif', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' },
+    { src: '/img3.avif', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' },
+    { src: '/img4.avif', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' },
+    { src: '/img5.avif', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' },
+    { src: '/img6.avif', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' },
+    { src: '/img7.avif', author: 'LUNDEV', title: 'DESIGN SLIDER', topic: 'ANIMAL', description: 'Lorem ipsum dolor...' }
 ];
 
 const Carousel: React.FC = () => {
