@@ -1,0 +1,22 @@
+# ---------------------------------------------------------------------
+# Date: 20/08/2024
+# Day: Tuesday
+
+- Selected several royalty-free images for the Service Page from various sources.
+- Designed templates for the Header Component of our Service Page using Canva.
+- Participated in a team discussion regarding project progress and task allocation.
+
+# Reference Websites:
+- https://github.com/bradtraversy/design-resources-for-developers?tab=readme-ov-file#stock-photos
+- https://www.lummi.ai/  (Best site for Quality Stock Images)
+- https://www.canva.com/design/DAGOYUnXRdw/VVEvbVGgKSOUZWvec2VEOw/edit?utm_content=DAGOYUnXRdw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
+
+# ---------------------------------------------------------------------
+# Date: 19/08/2024
+# Day: Monday
+
+- Conducted research on various websites and identified the best resources for the project.
+- Held a meeting with the team to discuss the project, explain tasks assigned, and address any concerns.
+
+# Reference:
+- https://github.com/bradtraversy/design-resources-for-developers?tab=readme-ov-file#stock-photos
