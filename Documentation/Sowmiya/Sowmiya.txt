@@ -1,3 +1,30 @@
+Date:22/08/2024
+Day:Thursday
+
+- Picked images for the services page
+- Also picked service header component images
+
+## Reference Websites ##
+ 1, https://www.pexels.com
+ 2, https://storyset.com/
+
+
+------------------------------------------------------------------------------
+
+
+Date : 21/08/2024
+Day : Wednesday
+
+  Add images for the services page on this website
+    https://www.shopify.com/stock-photos
+    https://www.lummi.ai/s/photo/software%20related%20images
+    https://unsplash.com/
+    https://stocksnap.io/search/software+development
+    
+
+----------------------------------------------------------------------
+
+
 Date : 20/08/2024
 Day : Tuesday
   
@@ -7,14 +34,3 @@ Day : Tuesday
     https://morguefile.com/
     https://allthefreestock.com/
     https://www.freeimages.com/?ref=picspree
-
-
-    ----------------------------------------------------------------------
-
-  Date : 21/08/2024
-  Day : Wednesday
-  Add images for the services page on this website
-    https://www.shopify.com/stock-photos
-    https://www.lummi.ai/s/photo/software%20related%20images
-    https://unsplash.com/
-    https://stocksnap.io/search/software+development
