@@ -9,8 +9,8 @@ const navigation = [
     { name: 'onjob', href: '/OnJobTraining', current: false},
     { name: 'Training', href: '/CorporateTraining', current: false},
     
-    { name: 'Industry', href: '#', current: false },
-    { name: 'Technology', href: '#', current: false },
+    { name: 'Project', href: '/ProjectTraining', current: false },
+    { name: 'OnlineOffline', href: '/OnlineOffline', current: false },
     { name: 'Clients', href: '#', current: false },
     { name: 'About Us', href: '#', current: false },
    

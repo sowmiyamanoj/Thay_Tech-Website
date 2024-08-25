@@ -8,6 +8,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 import CorporateTraining from './components/service/CorporateTraining';
 import OnJobTraining from './components/service/OnJobTraining';
+import ProjectTraining from './components/service/ProjectTraning';
+import OnlineOffline from './components/service/OnlineOffline';
 
 
 
@@ -20,6 +22,8 @@ const App: React.FC = () => {
      <Route path='*' element={<HomePage />} />
      <Route path='/CorporateTraining' element={<CorporateTraining />} />
      <Route path='/OnJobTraining' element={<OnJobTraining />} />
+     <Route path='/ProjectTraining' element={<ProjectTraining />} />
+     <Route path='/OnlineOffline' element={<OnlineOffline />} />
      
      </Routes>
    </Router>
