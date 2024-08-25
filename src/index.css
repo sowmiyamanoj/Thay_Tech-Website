@@ -5,7 +5,7 @@
 
 /* Custom global styles */
 body {
-  @apply bg-gray-50 text-gray-900 m-0;
+  @apply bg-[#f0f4f8] text-gray-900 m-0;
 }
 
 /* Custom scrollbar styling */
@@ -23,7 +23,6 @@ body {
   background: rgba(136, 136, 136, 0.6); /* Semi-transparent thumb */
   backdrop-filter: blur(5px); /* Apply blur to thumb */
   -webkit-backdrop-filter: blur(5px); /* For Safari support */
-
 }
 
 ::-webkit-scrollbar-thumb:hover {
