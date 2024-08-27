@@ -81,7 +81,7 @@ body, .body {
 /* Add a specific width to the image if needed */
 .img img {
   max-width: 100%; /* Adjusted to 100% */
-  height: auto;
+  height: 70cap;
 }
 
 /* Responsive Adjustments */

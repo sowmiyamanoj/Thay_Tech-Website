@@ -8,7 +8,7 @@ const navigation = [
     { name: 'Home', href: '/*', current: true },
     { name: 'onjob', href: '/OnJobTraining', current: false},
     { name: 'Training', href: '/CorporateTraining', current: false},
-    
+    {name :'Tech',  href: '/Tech',current: false},
     { name: 'Project', href: '/ProjectTraining', current: false },
     { name: 'OnlineOffline', href: '/OnlineOffline', current: false },
     { name: 'Clients', href: '#', current: false },

@@ -10,13 +10,14 @@ import CorporateTraining from './components/service/CorporateTraining';
 import OnJobTraining from './components/service/OnJobTraining';
 import ProjectTraining from './components/service/ProjectTraning';
 import OnlineOffline from './components/service/OnlineOffline';
+import Tech from './components/service/Tech';
 
 
 
 const App: React.FC = () => {
   return (
     <div>
-    <Router>
+     <Router>
      <Navbar/>
     <Routes>
      <Route path='*' element={<HomePage />} />
@@ -24,9 +25,11 @@ const App: React.FC = () => {
      <Route path='/OnJobTraining' element={<OnJobTraining />} />
      <Route path='/ProjectTraining' element={<ProjectTraining />} />
      <Route path='/OnlineOffline' element={<OnlineOffline />} />
-     
+     <Route path='/Tech' element={<Tech />} />
      </Routes>
-   </Router>
+   </Router> 
+   
+   
   
  </div>
   );

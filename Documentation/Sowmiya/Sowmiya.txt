@@ -1,4 +1,19 @@
-Date:25/08/2024
+
+Date:27/08/2024
+Day:Tuesday
+
+ -To create an appealing layout for the technology page.
+ -To implement an image border around the featured image
+  
+
+------------------------------------------------------------------------------
+
+
+
+
+
+
+Date:26/08/2024
 Day:Monday
 
  -I am conducting a comprehensive review of various websites to explore and 
