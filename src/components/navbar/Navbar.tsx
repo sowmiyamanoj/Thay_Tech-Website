@@ -57,8 +57,8 @@ const Navbar: React.FC = () => {
 
   return (
     <nav
-      className="bg-[#f0f4f8] border-gray-200 relative"
-      style={{ boxShadow: "0 4px 8px rgba(0, 0, 0, 0.2)" }}
+      className="bg-[var(--navbar-background)] border-[var(--box-shadow-color)] relative"
+      style={{ boxShadow: "0 4px 8px var(--box-shadow-color)" }}
     >
       <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
         <a href="#" className="flex items-center space-x-3 rtl:space-x-reverse">
@@ -106,7 +106,7 @@ const Navbar: React.FC = () => {
               <button
                 ref={servicesButtonRef}
                 id="mega-menu-full-cta-image-button"
-                className="flex items-center justify-between w-full py-2 px-3 font-medium text-[#003366] border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#00509e] md:p-0"
+                className="flex items-center justify-between w-full py-2 px-3 font-medium heading border-b border-gray-100 md:w-auto hover:bg-gray-50 md:hover:bg-transparent md:border-0 navbar-hover-text md:p-0"
                 onClick={toggleMegaMenu}
                 onMouseEnter={() => setIsMegaMenuOpen(true)}
                 // onMouseLeave={handleMouseLeave}
@@ -132,7 +132,7 @@ const Navbar: React.FC = () => {
             <li className="w-full md:w-1/4 hidden md:block">
               <a
                 href="#"
-                className="block py-2 px-3 text-[#003366] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#00509e] md:p-0 whitespace-nowrap"
+                className="block py-2 px-3 heading border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 navbar-hover-text md:p-0 whitespace-nowrap"
               >
                 About
               </a>
@@ -140,7 +140,7 @@ const Navbar: React.FC = () => {
             <li className="w-full md:w-1/4">
               <a
                 href="#"
-                className="block py-2 px-3 text-[#003366] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#00509e] md:p-0"
+                className="block py-2 px-3 heading border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 navbar-hover-text md:p-0"
               >
                 Technology
               </a>
@@ -148,7 +148,7 @@ const Navbar: React.FC = () => {
             <li className="w-full md:w-1/4 hidden md:block">
               <a
                 href="#"
-                className="block py-2 px-3 text-[#003366] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#00509e] md:p-0"
+                className="block py-2 px-3 heading border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 navbar-hover-text md:p-0"
               >
                 Clients
               </a>
@@ -156,7 +156,7 @@ const Navbar: React.FC = () => {
             <li className="w-full md:w-1/4 hidden md:block">
               <a
                 href="#"
-                className="block py-2 px-3 text-[#003366] border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-[#00509e] md:p-0 whitespace-nowrap"
+                className="block py-2 px-3 heading border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 navbar-hover-text md:p-0 whitespace-nowrap"
               >
                 Contact
               </a>
@@ -182,16 +182,17 @@ const Navbar: React.FC = () => {
           <div className="w-full md:w-1/3 space-y-4">
             <a
               href="/development"
-              className="flex items-center space-x-2 group"
+              className="flex items-center space-x-2 group navbar-hover-text"
             >
-              <h3 className="text-lg font-medium text-gray-900 flex items-center group-hover:text-blue-600">
-                <FaCode className="mr-2" /> Development
+              <h3 className="text-lg font-medium flex items-center group-hover:text-[#00D1F9]">
+                <FaCode className="mr-2 text-gray-500 group-hover:text-[#00D1F9]" />{" "}
+                Development
               </h3>
             </a>
             <ul className="space-y-2">
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9]"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -205,13 +206,16 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="/softwaredevelopment"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Software development
                 </a>
               </li>
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9]"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -225,7 +229,10 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="/productdevelopment"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Product development
                 </a>
               </li>
@@ -237,14 +244,14 @@ const Navbar: React.FC = () => {
               href="/outsourcing"
               className="flex items-center space-x-2 group"
             >
-              <h3 className="text-lg font-medium text-gray-900 flex items-center group-hover:text-blue-600 transition-colors duration-200">
+              <h3 className="text-lg font-medium text-gray-900 flex items-center group-hover:text-[#00D1F9] transition-colors duration-200">
                 <FaCogs className="mr-2 glow-icon" /> Outsourcing
               </h3>
             </a>
             <ul className="space-y-2">
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600 glow-icon"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9] glow-icon"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -258,13 +265,16 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="#"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Infrastructure Outsourcing
                 </a>
               </li>
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600 glow-icon"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9] glow-icon"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -278,7 +288,10 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="#"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Staff Outsourcing
                 </a>
               </li>
@@ -290,14 +303,14 @@ const Navbar: React.FC = () => {
               href="/it-consulting"
               className="flex items-center space-x-2 group"
             >
-              <h3 className="text-lg font-medium text-gray-900 flex items-center group-hover:text-blue-600 transition-colors duration-200">
+              <h3 className="text-lg font-medium text-gray-900 flex items-center group-hover:text-[#00D1F9] transition-colors duration-200">
                 <FaExternalLinkAlt className="mr-2 glow-icon" /> IT consulting
               </h3>
             </a>
             <ul className="space-y-2">
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600 glow-icon"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9] glow-icon"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -311,13 +324,16 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="#"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Tech Integration
                 </a>
               </li>
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600 glow-icon"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9] glow-icon"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -331,7 +347,10 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="#"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Security Solutions
                 </a>
               </li>
@@ -343,14 +362,14 @@ const Navbar: React.FC = () => {
               href="/cloud-support"
               className="flex items-center space-x-2 group"
             >
-              <h3 className="text-lg font-medium text-gray-900 flex items-center group-hover:text-blue-600 transition-colors duration-200">
+              <h3 className="text-lg font-medium text-gray-900 flex items-center group-hover:text-[#00D1F9] transition-colors duration-200">
                 <FaCloud className="mr-2 glow-icon" /> Cloud Support
               </h3>
             </a>
             <ul className="space-y-2">
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600 glow-icon"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9] glow-icon"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -364,13 +383,16 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="#"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Application support
                 </a>
               </li>
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600 glow-icon"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9] glow-icon"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -384,13 +406,16 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="#"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Database support
                 </a>
               </li>
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600 glow-icon"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9] glow-icon"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -404,13 +429,16 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="#"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Operating System
                 </a>
               </li>
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600 glow-icon"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9] glow-icon"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -424,26 +452,28 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="#"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Network support
                 </a>
               </li>
             </ul>
           </div>
-
           <div className="w-full md:w-1/3 space-y-4 mt-8">
             <a
               href="/software-training"
               className="flex items-center space-x-2 group"
             >
-              <h3 className="text-lg font-medium text-gray-900 flex items-center group-hover:text-blue-600 transition-colors duration-200">
+              <h3 className="text-lg font-medium text-gray-900 flex items-center group-hover:text-[#00D1F9] transition-colors duration-200">
                 <FaBook className="mr-2 glow-icon" /> Software Training
               </h3>
             </a>
             <ul className="space-y-2">
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600 glow-icon"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9] glow-icon"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -457,13 +487,16 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="#"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Corporate Training
                 </a>
               </li>
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600 glow-icon"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9] glow-icon"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -477,13 +510,16 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="#"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   On-Job Training
                 </a>
               </li>
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600 glow-icon"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9] glow-icon"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -497,13 +533,16 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="#"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Project Training
                 </a>
               </li>
               <li className="flex items-center group">
                 <svg
-                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-blue-600 glow-icon"
+                  className="w-3 h-3 mr-2 text-gray-500 transition-transform duration-200 group-hover:text-[#00D1F9] glow-icon"
                   style={{ transform: "rotate(270deg)" }}
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -517,7 +556,10 @@ const Navbar: React.FC = () => {
                     d="m1 1 4 4 4-4"
                   />
                 </svg>
-                <a href="#" className="text-gray-900 group-hover:text-blue-600">
+                <a
+                  href="#"
+                  className="text-gray-900 group-hover:text-[#00D1F9]"
+                >
                   Online & Offline Training
                 </a>
               </li>
@@ -525,43 +567,46 @@ const Navbar: React.FC = () => {
           </div>
 
           <a
-            className="relative w-full md:w-1/3 p-8 rounded-lg mt-8 overflow-hidden"
-            style={{
-              backgroundImage: "url(/img1.avif)",
-              backgroundSize: "cover",
-              backgroundPosition: "center",
-              backgroundAttachment: "fixed",
-            }}
-          >
-            <span className="absolute inset-0 bg-black opacity-30"></span>
-            <p className="relative max-w-xl mb-5 font-extrabold leading-tight tracking-tight text-white">
-              Unlock Your Business Potential
-            </p>
-            <button
-              type="button"
-              onClick={() => {
-                window.location.href = "#";
-              }}
-              className="relative inline-flex items-center px-2.5 py-1.5 text-xs font-medium text-center text-white border border-white rounded-lg hover:bg-white hover:text-gray-900 focus:ring-4 focus:outline-none focus:ring-gray-700"
-            >
-              Learn More
-              <svg
-                className="w-3 h-3 ms-2 rtl:rotate-180"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
-              </svg>
-            </button>
-          </a>
+  className="relative w-full md:w-1/3 p-8 rounded-lg mt-8 overflow-hidden border-2 border-[var(--heading-text)]"
+  style={{
+    backgroundImage: "url(/development/img9.jpg)",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundAttachment: "fixed",
+  }}
+>
+  <div className="relative p-4 rounded-lg bg-opacity-70">
+    <p className="max-w-xl mb-5 font-extrabold leading-tight tracking-tight text-[var(--heading-text)] text-xl">
+      Unlock Your Business Potential
+    </p>
+    <button
+      type="button"
+      onClick={() => {
+        window.location.href = "#";
+      }}
+      className="inline-flex items-center px-2.5 py-1.5 text-xs font-medium text-center text-white bg-[var(--heading-text)] rounded-lg hover:bg-[var(--primary-button-icon)] hover:text-[var(--heading-text)] focus:ring-4 focus:outline-none focus:ring-gray-700"
+    >
+      Learn More
+      <svg
+        className="w-3 h-3 ms-2 rtl:rotate-180"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 14 10"
+      >
+        <path
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          d="M1 5h12m0 0L9 1m4 4L9 9"
+        />
+      </svg>
+    </button>
+  </div>
+</a>
+
+
         </div>
       </div>
     </nav>

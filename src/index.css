@@ -8,6 +8,60 @@ body {
   @apply bg-[#f0f4f8] text-gray-900 m-0;
 }
 
+/* Define custom color variables */
+:root {
+  --navbar-background: #F2F9F9;
+  --primary-button-icon: #00D1F9;
+  --secondary-text-button-border: #19409A;
+  --heading-text: #001442;
+  --box-shadow-color: rgba(0, 0, 0, 0.08);
+  --description-text-footer-text: #808080;
+  --card-background: #F2F9F9;
+  --footer-heading: #FFFFFF;
+}
+
+/* Apply the custom colors using Tailwind classes */
+.navbar {
+  @apply bg-[var(--navbar-background)];
+}
+
+/* Custom hover text color */
+.navbar-hover-text {
+  @apply text-[var(--heading-text)] transition-colors duration-300; /* Default text color and transition */
+}
+
+.navbar-hover-text:hover {
+  @apply text-[#00D1F9]; /* Hover text color */
+}
+
+.button-primary, .icon {
+  @apply text-[var(--primary-button-icon)] bg-[var(--primary-button-icon)];
+}
+
+.button-secondary, .card-border, .footer-elements {
+  @apply text-[var(--secondary-text-button-border)] border-[var(--secondary-text-button-border)];
+}
+
+.heading {
+  @apply text-[var(--heading-text)];
+}
+
+.box-shadow {
+  @apply shadow-[0_0_45px_var(--box-shadow-color)];
+}
+
+.description, .footer-text {
+  @apply text-[var(--description-text-footer-text)];
+}
+
+.card {
+  @apply bg-[var(--card-background)];
+}
+
+.footer-heading {
+  @apply text-[var(--footer-heading)];
+}
+
 /* Custom scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
