@@ -11,6 +11,7 @@ import OnJobTraining from './components/service/OnJobTraining';
 import ProjectTraining from './components/service/ProjectTraning';
 import OnlineOffline from './components/service/OnlineOffline';
 import Tech from './components/service/Tech';
+import TechHeader from './components/service/TechHeader';
 
 
 
@@ -26,6 +27,8 @@ const App: React.FC = () => {
      <Route path='/ProjectTraining' element={<ProjectTraining />} />
      <Route path='/OnlineOffline' element={<OnlineOffline />} />
      <Route path='/Tech' element={<Tech />} />
+     <Route path='/TechHeader' element={<TechHeader />} />
+     
      </Routes>
    </Router> 
    

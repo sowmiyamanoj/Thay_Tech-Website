@@ -12,7 +12,7 @@ const navigation = [
     { name: 'Project', href: '/ProjectTraining', current: false },
     { name: 'OnlineOffline', href: '/OnlineOffline', current: false },
     { name: 'Clients', href: '#', current: false },
-    { name: 'About Us', href: '#', current: false },
+    { name: 'TechHeader', href: '/TechHeader', current: false },
    
 ];
 
