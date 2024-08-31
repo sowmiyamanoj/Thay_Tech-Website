@@ -1,0 +1,8 @@
+.arrow {
+    font-size: 1.25rem; /* Adjust size as needed */
+    transition: transform 0.3s ease;
+  }
+  
+  a:hover .arrow {
+    transform: translateX(5px); /* Moves the arrow on hover */
+  }

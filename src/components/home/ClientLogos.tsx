@@ -30,7 +30,7 @@ const imageUrls = [
 
 function ClientLogos() {
   return (
-    <div className="ClientLogos">
+    <div className="ClientLogos mt-8">
       <div className="title">
       <h2 className="text-3xl font-bold text-center text-gray-800">
         Our Clients

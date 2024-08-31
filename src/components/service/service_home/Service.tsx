@@ -1,10 +1,9 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faCloud, faCogs, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
-import "./HomeService.css";
 import HeaderService from "./HeaderService";
 
-const HomeService: React.FC = () => {
+const Service: React.FC = () => {
   return (
     <div>
       <HeaderService />
@@ -103,4 +102,4 @@ const HomeService: React.FC = () => {
   );
 };
 
-export default HomeService;
+export default Service;

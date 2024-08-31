@@ -7,7 +7,6 @@
     overflow: hidden;
     position: relative;
     padding-top: 60px;
-    /* Adjust this value as needed */
 }
 
 .carousel .list .item {
@@ -120,7 +119,7 @@
     position: absolute;
     top: 80%;
     right: 52%;
-    z-index: 1;
+    z-index: 100;
     width: 300px;
     max-width: 30%;
     display: flex;
@@ -218,7 +217,7 @@
 }
 
 .carousel.next .thumbnail {
-    animation: effectNext 0.5s linear 1 forwards;
+    animation: effectNext 1.5s linear 1 forwards;
 }
 
 @keyframes effectNext {

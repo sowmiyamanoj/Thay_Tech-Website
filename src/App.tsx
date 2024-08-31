@@ -21,6 +21,7 @@ import CorporateTraining from "./components/service/software_training/CorporateT
 import OnJobTraining from "./components/service/software_training/OnJobTraining";
 import ProjectTraining from "./components/service/software_training/ProjectTraining";
 import OnlineOfflineTraining from "./components/service/software_training/OnlineOfflineTraining";
+import Contact from "./components/contact/Contact";
 
 const App: React.FC = () => {
   return (
@@ -47,6 +48,7 @@ const App: React.FC = () => {
           <Route path="/services/software-training/on-job-training" element={<OnJobTraining />} />
           <Route path="/services/software-training/project-training" element={<ProjectTraining />} />
           <Route path="/services/software-training/online-offline-training" element={<OnlineOfflineTraining />} />
+          <Route path="/contact-us" element={<Contact />} />
         </Routes>
         <Footer />
       </Router>
