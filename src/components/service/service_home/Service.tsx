@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBook, faCloud, faCogs, faLaptopCode } from "@fortawesome/free-solid-svg-icons";
-import "./Service.css";
+import "./HomeService.css";
 import HeaderService from "./HeaderService";
 
 const HomeService: React.FC = () => {
@@ -21,11 +21,11 @@ const HomeService: React.FC = () => {
           <div className="col-md-7 col-lg-8 col-xl-5 wow fadeInUp" data-wow-delay="0.1s">
             <div className="service-item bg-light rounded">
               <div className="service-img">
-                <img src="public/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 1" />
+                <img src="service/cloud/cloud.jpg" className="img-fluid w-100 rounded-top" alt="Service 1" />
               </div>
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
-                  <a href="/SoftwareTraining" className="h4 mb-4 d-inline-flex text-start">
+                  <a href="service/cloud/cloud.jpg" className="h4 mb-4 d-inline-flex text-start">
                     <FontAwesomeIcon icon={faLaptopCode} size="1x" className="me-2" />
                     Software training
                   </a>
@@ -41,7 +41,7 @@ const HomeService: React.FC = () => {
           <div className="col-md-7 col-lg-8 col-xl-5 wow fadeInUp" data-wow-delay="0.3s">
             <div className="service-item bg-light rounded">
               <div className="service-img">
-                <img src="public/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 2" />
+                <img src="service/cloud/cloud.jpg" className="img-fluid w-100 rounded-top" alt="Service 2" />
               </div>
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
@@ -61,7 +61,7 @@ const HomeService: React.FC = () => {
           <div className="col-md-6 col-lg-5 col-xl-5 wow fadeInUp" data-wow-delay="0.5s">
             <div className="service-item bg-light rounded">
               <div className="service-img">
-                <img src="public/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 3" />
+                <img src="service/cloud/cloud.jpg" className="img-fluid w-100 rounded-top" alt="Service 3" />
               </div>
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
@@ -81,7 +81,7 @@ const HomeService: React.FC = () => {
           <div className="col-md-6 col-lg-4 col-xl-5 wow fadeInUp" data-wow-delay="0.5s">
             <div className="service-item bg-light rounded">
               <div className="service-img">
-                <img src="public/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 4" />
+                <img src="/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 4" />
               </div>
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">

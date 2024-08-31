@@ -36,7 +36,7 @@ const ApplicationSupport: React.FC = () => {
             <p>Optimize performance with proactive application care</p>
           </div>
           <div className="flex-1">
-            <img src="public/cloud_support/application_support/ApplicationSupport.svg" className="animate-right-to-left" />
+            <img src="/cloud_support/application_support/ApplicationSupport.svg" className="animate-right-to-left" />
           </div>
         </div>
         <div className="content-box flex fade-in-section">
@@ -64,13 +64,13 @@ const ApplicationSupport: React.FC = () => {
             </p>
           </div>
           <div className="img p-10">
-            <img src="public/cloud_support/application_support/App-img1.jpg" />
+            <img src="/cloud_support/application_support/App-img1.jpg" />
           </div>
         </div>
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="public/cloud_support/application_support/App-img2.jpg" />
+              <img src="/cloud_support/application_support/App-img2.jpg" />
             </div>
             <div className="content p-10">
               <h3 className="text-gray-600 pb-3 text-xl">
@@ -108,7 +108,7 @@ const ApplicationSupport: React.FC = () => {
             <br />
           </div>
           <div className="img p-10">
-            <img src="public/cloud_support/application_support/App-img3.jpg" />
+            <img src="/cloud_support/application_support/App-img3.jpg" />
           </div>
         </div>
       </div>

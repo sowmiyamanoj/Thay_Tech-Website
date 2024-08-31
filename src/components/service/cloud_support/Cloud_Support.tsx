@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCloud } from "@fortawesome/free-solid-svg-icons";
-import "../service_home/Service.css";
+import "../service_home/HomeService.css";
 import HeaderService from "../service_home/HeaderService";
 
 const CloudSupport: React.FC = () => {
@@ -21,7 +21,7 @@ const CloudSupport: React.FC = () => {
           <div className="col-md-7 col-lg-8 col-xl-5 wow fadeInUp" data-wow-delay="0.1s">
             <div className="service-item bg-light rounded">
               <div className="service-img">
-                <img src="public/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 1" />
+                <img src="/service/cloud/cloud.jpg" className="img-fluid w-100 rounded-top" alt="Service 1" />
               </div>
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
@@ -41,7 +41,7 @@ const CloudSupport: React.FC = () => {
           <div className="col-md-7 col-lg-8 col-xl-5 wow fadeInUp" data-wow-delay="0.3s">
             <div className="service-item bg-light rounded">
               <div className="service-img">
-                <img src="public/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 2" />
+                <img src="/service/cloud/cloud.jpg" className="img-fluid w-100 rounded-top" alt="Service 2" />
               </div>
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
@@ -61,7 +61,7 @@ const CloudSupport: React.FC = () => {
           <div className="col-md-6 col-lg-5 col-xl-5 wow fadeInUp" data-wow-delay="0.5s">
             <div className="service-item bg-light rounded">
               <div className="service-img">
-                <img src="public/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 3" />
+                <img src="/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 3" />
               </div>
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">
@@ -81,7 +81,7 @@ const CloudSupport: React.FC = () => {
           <div className="col-md-6 col-lg-4 col-xl-5 wow fadeInUp" data-wow-delay="0.5s">
             <div className="service-item bg-light rounded">
               <div className="service-img">
-                <img src="public/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 4" />
+                <img src="/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 4" />
               </div>
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">

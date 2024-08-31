@@ -36,7 +36,7 @@ const StaffOutSourcing: React.FC = () => {
             <p>Boost your workforce with tailored expertise and flexible solutions </p>
           </div>
           <div className="flex-1 text-right">
-            <img src="public/outsourcing/staff_outsourcing/Staff-Outsourcing.svg" alt="Head Software Development" className="animate-right-to-left" />
+            <img src="/outsourcing/staff_outsourcing/Staff-Outsourcing.svg" alt="Head Software Development" className="animate-right-to-left" />
           </div>
         </div>
         {/* <h1 className='content text-5xl font-bold text-center mt-6'>We design tools to unveil
@@ -64,13 +64,13 @@ const StaffOutSourcing: React.FC = () => {
             </p>
           </div>
           <div className="img p-10">
-            <img src="public/outsourcing/staff_outsourcing/Staff-img1.jpg" />
+            <img src="/outsourcing/staff_outsourcing/Staff-img1.jpg" />
           </div>
         </div>
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="public/outsourcing/staff_outsourcing/Staff-img2.jpg" />
+              <img src="/outsourcing/staff_outsourcing/Staff-img2.jpg" />
             </div>
             <div className="content p-10">
               <h3 className="text-gray-600 pb-3 text-xl">
@@ -104,7 +104,7 @@ const StaffOutSourcing: React.FC = () => {
             <br />
           </div>
           <div className="img p-10">
-            <img src="public/outsourcing/staff_outsourcing/Staff-img3.jpg" />
+            <img src="/outsourcing/staff_outsourcing/Staff-img3.jpg" />
           </div>
         </div>
       </div>

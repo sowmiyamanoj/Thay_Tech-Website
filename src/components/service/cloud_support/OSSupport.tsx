@@ -36,7 +36,7 @@ const OSSupport: React.FC = () => {
             <p>Ensure smooth operations with reliable OS assistance</p>
           </div>
           <div className="flex-1 text-right">
-            <img src="public/cloud_support/os_support/OS-support.svg" alt="Head Software Development" className="animate-right-to-left" />
+            <img src="/cloud_support/os_support/OS-support.svg" alt="Head Software Development" className="animate-right-to-left" />
           </div>
         </div>
         {/* <h1 className='content text-5xl font-bold text-center mt-6'>We design tools to unveil
@@ -66,13 +66,13 @@ const OSSupport: React.FC = () => {
             </p>
           </div>
           <div className="img p-10">
-            <img src="public/cloud_support/os_support/Os-img1.jpg" />
+            <img src="/cloud_support/os_support/Os-img1.jpg" />
           </div>
         </div>
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="public/cloud_support/os_support/Os-img2.jpg" />
+              <img src="/cloud_support/os_support/Os-img2.jpg" />
             </div>
             <div className="content p-10">
               <h3 className="text-gray-600 pb-3 text-xl">
@@ -117,7 +117,7 @@ const OSSupport: React.FC = () => {
             <br />
           </div>
           <div className="img p-10">
-            <img src="public/cloud_support/os_support/Os-img3.jpg" />
+            <img src="/cloud_support/os_support/Os-img3.jpg" />
           </div>
         </div>
       </div>

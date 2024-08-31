@@ -2,7 +2,7 @@
 .bg-breadcrumb {
   position: relative;
   overflow: hidden;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/public/Header/carousel-1.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/service/home/home.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -240,7 +240,7 @@ body,
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/public/Software-Logos/img7.jpg"); /* Replace with your image URL */
+  background-image: url("/Software-Logos/img7.jpg"); /* Replace with your image URL */
   background-size: cover;
   background-position: center;
   filter: blur(8px);

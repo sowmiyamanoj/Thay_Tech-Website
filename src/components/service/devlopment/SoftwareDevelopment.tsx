@@ -36,7 +36,7 @@ const SoftwareDevelopment: React.FC = () => {
             <p>Let decide on what you want. We will deliver what you need.</p>
           </div>
           <div className="flex-1">
-            <img src="/public/development/software_development/Software.svg" alt="Head Software Development" className="animate-right-to-left" />
+            <img src="/development/software_development/Software.svg" alt="Head Software Development" className="animate-right-to-left" />
           </div>
         </div>
         <div className="content-box flex fade-in-section">
@@ -58,13 +58,13 @@ const SoftwareDevelopment: React.FC = () => {
             </p>
           </div>
           <div className="img p-10">
-            <img src="public/development/software_development/Soft-img1.jpg" />
+            <img src="/development/software_development/Soft-img1.jpg" />
           </div>
         </div>
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="public/development/software_development/Soft-img2.jpg" />
+              <img src="/development/software_development/Soft-img2.jpg" />
             </div>
             <div className="content p-10">
               <h1 className="text-gray-600 pb-3 text-2xl">
@@ -108,13 +108,13 @@ const SoftwareDevelopment: React.FC = () => {
             <br />
           </div>
           <div className="img p-10">
-            <img src="public/development/software_development/Soft-img3.jpg" />
+            <img src="/development/software_development/Soft-img3.jpg" />
           </div>
         </div>
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="public/development/software_development/Soft-img4.jpg" />
+              <img src="/development/software_development/Soft-img4.jpg" />
             </div>
             <div className="content p-10">
               <h1 className="text-gray-600 pb-3 text-2xl">
@@ -138,7 +138,7 @@ const SoftwareDevelopment: React.FC = () => {
           </div>
         </div>
         <div>
-          <img src="/public/development/software_development/TimelineCycle.svg" className="fade-in-section" />
+          <img src="/development/software_development/TimelineCycle.svg" className="fade-in-section" />
         </div>
         <div className="box flex fade-in-section">
           <div className="blur-content p-10">

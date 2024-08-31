@@ -68,19 +68,19 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #F2F9F9; /* Transparent background for frosted-glass effect */
+  background: rgba(255, 255, 255, 0.3); /* Transparent background for frosted-glass effect */
   backdrop-filter: blur(5px); /* Apply blur for frosted-glass effect */
   -webkit-backdrop-filter: blur(5px); /* For Safari support */
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #001442; /* Semi-transparent thumb */
+  background: rgba(136, 136, 136, 0.6); /* Semi-transparent thumb */
   backdrop-filter: blur(5px); /* Apply blur to thumb */
   -webkit-backdrop-filter: blur(5px); /* For Safari support */
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #00D1F9; /* Darker on hover with transparency */
+  background: rgba(85, 85, 85, 0.6); /* Darker on hover with transparency */
   backdrop-filter: blur(5px); /* Apply blur on hover */
   -webkit-backdrop-filter: blur(5px); /* For Safari support */
 }

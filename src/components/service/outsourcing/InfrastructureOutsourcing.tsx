@@ -63,7 +63,7 @@ const InfrastructureOutsourcing: React.FC = () => {
             <p>Stay ahead with a resilient, always-available infrastructure.</p>
           </div>
           <div className="flex-1">
-            <img src="public/outsourcing/infrastructure_outsourcing/infrastructure.svg" alt="Head Software Development" />
+            <img src="/outsourcing/infrastructure_outsourcing/infrastructure.svg" alt="Head Software Development" />
           </div>
         </div>
         <div className="content-box flex fade-in-section">
@@ -78,13 +78,13 @@ const InfrastructureOutsourcing: React.FC = () => {
             <br />
           </div>
           <div className="img p-10">
-            <img src="public/outsourcing/infrastructure_outsourcing/infra-img5.jpg" />
+            <img src="/outsourcing/infrastructure_outsourcing/infra-img5.jpg" />
           </div>
         </div>
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="public/outsourcing/infrastructure_outsourcing/infra-img4.jpg" />
+              <img src="/outsourcing/infrastructure_outsourcing/infra-img4.jpg" />
             </div>
             <div className="content p-10">
               <h1 className="text-gray-600 pb-3 text-2xl">
@@ -136,13 +136,13 @@ const InfrastructureOutsourcing: React.FC = () => {
             </p>
           </div>
           <div className="img p-10">
-            <img src="public/outsourcing/infrastructure_outsourcing/infra-img6.jpg" />
+            <img src="/outsourcing/infrastructure_outsourcing/infra-img6.jpg" />
           </div>
         </div>
         <div className="reverse-content">
           <div className="content-box flex fade-in-section">
             <div className="img p-10">
-              <img src="public/outsourcing/infrastructure_outsourcing/infra-img7.jpg" />
+              <img src="/outsourcing/infrastructure_outsourcing/infra-img7.jpg" />
             </div>
             <div className="content p-10">
               <h1 className="text-gray-600 pb-3 text-2xl">

@@ -17,29 +17,29 @@ const SvelteSignals: React.FC = () => {
                   <div className="flex items-center space-x-6 lg:space-x-8">
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg sm:opacity-0 lg:opacity-100">
-                        <img src="/public/Software-Logos/img-3.jpg" alt="Image 1" className="h-full w-full object-cover object-center" />
+                        <img src="/service/development/development1.jpg" alt="Image 1" className="h-full w-full object-cover object-center" />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img src="/public/Software-Logos/img-3.jpg" alt="Image 2" className="h-full w-full object-cover object-center" />
-                      </div>
-                    </div>
-                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img src="/public/Software-Logos/img-3.jpg" alt="Image 3" className="h-full w-full object-cover object-center" />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img src="/public/Software-Logos/img-3.jpg" alt="Image 4" className="h-full w-full object-cover object-center" />
-                      </div>
-                      <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img src="/public/Software-Logos/img-3.jpg" alt="Image 5" className="h-full w-full object-cover object-center" />
+                        <img src="/service/development/development2.jpg" alt="Image 2" className="h-full w-full object-cover object-center" />
                       </div>
                     </div>
                     <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img src="/public/Software-Logos/img-3.jpg" alt="Image 6" className="h-full w-full object-cover object-center" />
+                        <img src="/service/development/development3.jpg" alt="Image 3" className="h-full w-full object-cover object-center" />
                       </div>
                       <div className="h-64 w-44 overflow-hidden rounded-lg">
-                        <img src="/public/Software-Logos/img-3.jpg" alt="Image 7" className="h-full w-full object-cover object-center" />
+                        <img src="/service/development/development4.jpg" alt="Image 4" className="h-full w-full object-cover object-center" />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img src="/service/development/development5.png" alt="Image 5" className="h-full w-full object-cover object-center" />
+                      </div>
+                    </div>
+                    <div className="grid flex-shrink-0 grid-cols-1 gap-y-6 lg:gap-y-8">
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img src="/service/development/development6.jpg" alt="Image 6" className="h-full w-full object-cover object-center" />
+                      </div>
+                      <div className="h-64 w-44 overflow-hidden rounded-lg">
+                        <img src="/service/development/development1.jpg" alt="Image 7" className="h-full w-full object-cover object-center" />
                       </div>
                     </div>
                   </div>

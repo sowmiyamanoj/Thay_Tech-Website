@@ -1,7 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode, faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import "../service_home/Service.css";
+import "../service_home/HomeService.css";
 import SvelteSignals from "./SvelteSignals";
 
 const Development: React.FC = () => {
@@ -33,7 +33,7 @@ const Development: React.FC = () => {
           <div className="col-md-7 col-lg-8 col-xl-5  wow fadeInUp" data-wow-delay="0.1s">
             <div className="service-item bg-light rounded">
               <div className="service-img">
-                <img src="public/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 1" />
+                <img src="/service/development/development.jpg" className="img-fluid w-100 rounded-top" alt="Service 1" />
               </div>
               <div className="service-content text-center p-10">
                 <div className="service-content-inner">
@@ -53,7 +53,7 @@ const Development: React.FC = () => {
           <div className="col-md-7 col-lg-8 col-xl-5 wow fadeInUp" data-wow-delay="0.3s">
             <div className="service-item bg-light rounded">
               <div className="service-img">
-                <img src="public/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 2" />
+                <img src="/service/development/development.jpg" className="img-fluid w-100 rounded-top" alt="Service 2" />
               </div>
               <div className="service-content text-center p-4">
                 <div className="service-content-inner">

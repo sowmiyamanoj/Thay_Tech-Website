@@ -1,6 +1,6 @@
 import React from "react";
 import "./HeaderService.css";
-import "./Service.css";
+import "./HomeService.css";
 
 const HeaderService: React.FC = () => {
   return (

@@ -57,7 +57,7 @@ const OnJobTraining: React.FC = () => {
             </p>
           </div>
           <div className="img p-10">
-            <img src="/public/software_training/on_job_training/Onjob-img1.jpg" />
+            <img src="/software_training/on_job_training/Onjob-img1.jpg" />
           </div>
         </div>
 
