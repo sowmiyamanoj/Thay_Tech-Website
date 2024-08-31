@@ -16,53 +16,52 @@ interface MenuItem {
 
 const menuItems: MenuItem[] = [
   {
-    href: "/development",
+    href: "/service/development",
     icon: <FaCode />,
     text: "Development",
     submenus: [
-      { href: "/softwaredevelopment", text: "Software Development" },
-      { href: "/productdevelopment", text: "Product Development" },
+      { href: "/service/softwaredevelopment", text: "Software Development" },
+      { href: "/service/productdevelopment", text: "Product Development" },
     ],
   },
   {
-    href: "/outsourcing",
+    href: "/service/outsourcing",
     icon: <FaCogs />,
     text: "Outsourcing",
     submenus: [
-      { href: "/infrastructure-outsourcing", text: "Infrastructure Outsourcing" },
-      { href: "/staff-outsourcing", text: "Staff Outsourcing" },
+      { href: "/service/infrastructure-outsourcing", text: "Infrastructure Outsourcing" },
+      { href: "/service/staff-outsourcing", text: "Staff Outsourcing" },
     ],
   },
   {
-    href: "/it-consulting",
+    href: "/service/it-consulting",
     icon: <FaExternalLinkAlt />,
     text: "IT Consulting",
     submenus: [
-      { href: "/tech-integration", text: "Tech Integration" },
-      { href: "/security-solutions", text: "Security Solutions" },
+      { href: "/service/tech-integration", text: "Tech Integration" },
+      { href: "/service/security-solutions", text: "Security Solutions" },
     ],
   },
   {
-    href: "/cloud-support",
+    href: "/service/cloud-support",
     icon: <FaCloud />,
     text: "Cloud Support",
     submenus: [
-      { href: "/application-support", text: "Application support" },
-      { href: "/database-support", text: "Database support" },
-      { href: "/operating-system", text: "Operating System" },
-      { href: "/network-support", text: "Network support" },
+      { href: "/service/application-support", text: "Application support" },
+      { href: "/service/database-support", text: "Database support" },
+      { href: "/service/operating-system", text: "Operating System" },
+      { href: "/service/network-support", text: "Network support" },
     ],
-    
   },
   {
-    href: "/software-training",
+    href: "/service/software-training",
     icon: <FaBook />,
     text: "Software Training",
     submenus: [
-      { href: "/corporate-training", text: "Corporate Training" },
-      { href: "/on-job-training", text: "On-Job Training" },
-      { href: "/project-training", text: "Project Training" },
-      { href: "/online-offline-training", text: "Online & Offline Training" },
+      { href: "/service/corporate-training", text: "Corporate Training" },
+      { href: "/service/on-job-training", text: "On-Job Training" },
+      { href: "/service/project-training", text: "Project Training" },
+      { href: "/service/online-offline-training", text: "Online & Offline Training" },
     ],
   },
 ];
