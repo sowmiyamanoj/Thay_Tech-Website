@@ -16,52 +16,52 @@ interface MenuItem {
 
 const menuItems: MenuItem[] = [
   {
-    href: "/service/development",
+    href: "/services/development",
     icon: <FaCode />,
     text: "Development",
     submenus: [
-      { href: "/service/softwaredevelopment", text: "Software Development" },
-      { href: "/service/productdevelopment", text: "Product Development" },
+      { href: "/services/development/software-development", text: "Software Development" },
+      { href: "/services/development/product-development", text: "Product Development" },
     ],
   },
   {
-    href: "/service/outsourcing",
+    href: "/services/outsourcing",
     icon: <FaCogs />,
     text: "Outsourcing",
     submenus: [
-      { href: "/service/infrastructure-outsourcing", text: "Infrastructure Outsourcing" },
-      { href: "/service/staff-outsourcing", text: "Staff Outsourcing" },
+      { href: "/services/outsourcing/infrastructure-outsourcing", text: "Infrastructure Outsourcing" },
+      { href: "/services/outsourcing/staff-outsourcing", text: "Staff Outsourcing" },
     ],
   },
   {
-    href: "/service/it-consulting",
+    href: "/services/it-consulting",
     icon: <FaExternalLinkAlt />,
     text: "IT Consulting",
     submenus: [
-      { href: "/service/tech-integration", text: "Tech Integration" },
-      { href: "/service/security-solutions", text: "Security Solutions" },
+      { href: "/services/it-consulting/tech-integration", text: "Tech Integration" },
+      { href: "/services/it-consulting/security-solutions", text: "Security Solutions" },
     ],
   },
   {
-    href: "/service/cloud-support",
+    href: "/services/cloud-support",
     icon: <FaCloud />,
     text: "Cloud Support",
     submenus: [
-      { href: "/service/application-support", text: "Application support" },
-      { href: "/service/database-support", text: "Database support" },
-      { href: "/service/operating-system", text: "Operating System" },
-      { href: "/service/network-support", text: "Network support" },
+      { href: "/services/cloud-support/application-support", text: "Application support" },
+      { href: "/services/cloud-support/database-support", text: "Database support" },
+      { href: "/services/cloud-support/operating-system", text: "Operating System" },
+      { href: "/services/cloud-support/network-support", text: "Network support" },
     ],
   },
   {
-    href: "/service/software-training",
+    href: "/services/software-training",
     icon: <FaBook />,
     text: "Software Training",
     submenus: [
-      { href: "/service/corporate-training", text: "Corporate Training" },
-      { href: "/service/on-job-training", text: "On-Job Training" },
-      { href: "/service/project-training", text: "Project Training" },
-      { href: "/service/online-offline-training", text: "Online & Offline Training" },
+      { href: "/services/software-training/corporate-training", text: "Corporate Training" },
+      { href: "/services/software-training/on-job-training", text: "On-Job Training" },
+      { href: "/services/software-training/project-training", text: "Project Training" },
+      { href: "/services/software-training/online-offline-training", text: "Online & Offline Training" },
     ],
   },
 ];
