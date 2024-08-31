@@ -148,18 +148,28 @@ const SubMenu: React.FC<SubMenuProps> = ({ isOpen, onClose }) => {
           </div>
         )}
       </div>
-      {/* Promotional content */}
+      {/* Promotional Content */}
       <div className="flex flex-col items-center p-4 mt-6 bg-[#F2F9F9] rounded-lg shadow-lg">
-        <h3 className="text-xl font-semibold text-[#001442] mb-2">Limited Time Offer!</h3>
-        <p className="text-lg text-[#001442] mb-4">
-          Get 20% off on all our services until the end of this month. Don't miss out!
-        </p>
-        <a
-          href="/promotions"
-          className="bg-[#00D1F9] text-white py-2 px-4 rounded-lg font-medium hover:bg-[#00A3C4] transition-colors"
-        >
-          Learn More
-        </a>
+        <div className="relative w-full h-36 rounded-lg overflow-hidden border-2 border-[#001442] bg-cover bg-center" style={{ backgroundImage: "url(/development/img9.jpg)" }}>
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-black bg-opacity-40 z-10"></div>
+
+          <div className="relative p-4 z-20 flex flex-col justify-center h-full text-center">
+            <p className="mb-2 text-lg font-bold text-white">Transform Your Business</p>
+            <p className="mb-3 text-sm font-medium text-gray-300">Empower your team with cutting-edge solutions.</p>
+            <button
+              type="button"
+              onClick={() => (window.location.href = "#")}
+              className="inline-flex items-center justify-center px-2 py-1.5 text-xs font-semibold text-white bg-[#001442] rounded-lg hover:bg-[#00D1F9] focus:outline-none transition-all duration-300 group mx-auto">
+              <span className="flex items-center transition-transform duration-300 group-hover:translate-x-1.5">
+                Explore Now
+                <svg className="w-3 h-3 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+                  <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
+                </svg>
+              </span>
+            </button>
+          </div>
+        </div>
       </div>
     </div>
   );
