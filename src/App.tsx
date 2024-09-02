@@ -1,7 +1,6 @@
 import React from "react";
 import Navbar from "./components/navbar/Navbar";
 import HomePage from "./components/home/HomePage";
-
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Footer from "./components/footer/Footer";
 import Service from "./components/service/service_home/Service";
@@ -22,6 +21,8 @@ import OnJobTraining from "./components/service/software_training/OnJobTraining"
 import ProjectTraining from "./components/service/software_training/ProjectTraining";
 import OnlineOfflineTraining from "./components/service/software_training/OnlineOfflineTraining";
 import Contact from "./components/contact/Contact";
+import TechIntegration from "./components/service/it_consulting/TechIntegeration";
+import StaffOutSourcing from "./components/service/outsourcing/StaffOutsourcing";
 
 const App: React.FC = () => {
   return (
@@ -43,17 +44,16 @@ const App: React.FC = () => {
           <Route path="/services/cloud-support/operating-system" element={<OSSupport />} />
           <Route path="/services/cloud-support/network-support" element={<NetworkSupport />} />
           <Route path="/services/outsourcing/infrastructure-outsourcing" element={<InfrastructureOutsourcing />} />
-          <Route path="/services/outsourcing/staff-outsourcing" element={<InfrastructureOutsourcing />} />
+          <Route path="/services/outsourcing/staff-outsourcing" element={<StaffOutSourcing />} />
           <Route path="/services/software-training/corporate-training" element={<CorporateTraining />} />
           <Route path="/services/software-training/on-job-training" element={<OnJobTraining />} />
           <Route path="/services/software-training/project-training" element={<ProjectTraining />} />
           <Route path="/services/software-training/online-offline-training" element={<OnlineOfflineTraining />} />
+          <Route path="/services/it-consulting/tech-integration" element={<TechIntegration />} />
           <Route path="/contact-us" element={<Contact />} />
         </Routes>
-        <Footer />
       </Router>
     </div>
   );
 };
-
 export default App;

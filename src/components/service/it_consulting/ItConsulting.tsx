@@ -1,96 +1,84 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCloud } from "@fortawesome/free-solid-svg-icons";
+import { faBook, faCloud } from "@fortawesome/free-solid-svg-icons";
 import "../service_home/HomeService.css";
 import HeaderService from "../service_home/HeaderService";
 
 const ITConsulting: React.FC = () => {
   return (
     <div>
-      <HeaderService />
+      <HeaderService name="IT Consulting" />
       {/* Our Services Section */}
-      <div className="container py-5">
-        <div className="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style={{ maxWidth: "800px" }}>
-          <div className="section-title text-center position-relative pb-3 mb-5 mx-auto" style={{ maxWidth: "600px" }}>
-            <h5 className="fw-bold text-primary text-uppercase">IT Consulting</h5>
-            <h1 className="mb-0">Comprehensive cloud support services to optimize and maintain your business infrastructure.</h1>
-          </div>
+      <div className="container mx-auto py-5">
+        <div
+          className="section-title text-center position-relative pb-3 mb-5 mx-auto"
+          style={{ maxWidth: "600px" }}
+        >
+          <h1 className="font-black text-center">
+            Comprehensive cloud support services to optimize and maintain your
+            business infrastructure.
+          </h1>
         </div>
-        <div className="row g-4 justify-content-center text-center">
+
+        <div className="flex flex-wrap justify-center text-center gap-4">
           {/* Service Items */}
-          <div className="col-md-7 col-lg-8 col-xl-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div className="service-item bg-light rounded">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+            <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
-                <img src="/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 1" />
+                <img
+                  src="/service/itsupport/itsupport.jpg"
+                  className="img-fluid w-full rounded-t-lg"
+                  alt="Service 1"
+                />
               </div>
-              <div className="service-content text-center p-4">
+              <div className="service-content p-4">
                 <div className="service-content-inner">
-                  <a href="/SoftwareTraining" className="h4 mb-4 d-inline-flex text-start">
-                    <FontAwesomeIcon icon={faCloud} size="1x" className="me-2" />
-                    Application support
+                  <a
+                    href="/SoftwareTraining"
+                    className="h4 mb-4 flex items-center justify-center text-start"
+                  >
+                    <FontAwesomeIcon icon={faCloud} className="mr-2" />
+                    Tech Integeration
                   </a>
-                  <p className="mb-4">Expert cloud application setup and management to boost your business productivity.</p>
-                  <a className="btn btn-light rounded-pill py-2 px-4" href="/SoftwareTraining">
-                    Read More
-                  </a>
+                  <div className="service-content-inner">
+                    <p className="mb-4">
+                      Expert cloud application setup and management to boost
+                      your business productivity.
+                    </p>
+                    <a
+                      className="bg-cyan-400  rounded-full py-2 px-4"
+                      href="/services/it_consulting/TechIntegration"
+                    >
+                      Read More
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-
-          <div className="col-md-7 col-lg-8 col-xl-5 wow fadeInUp" data-wow-delay="0.3s">
-            <div className="service-item bg-light rounded">
+          <div className="w-full sm:w-1/2 lg:w-1/3 p-4">
+            <div className="service-item bg-gray-100 rounded-lg shadow transition-transform transform hover:scale-105">
               <div className="service-img">
-                <img src="/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 2" />
+                <img
+                  src="/service/itsupport/itsupport.jpg"
+                  className="img-fluid w-full rounded-t-lg"
+                  alt="Service 4"
+                />
               </div>
-              <div className="service-content text-center p-4">
+              <div className="service-content p-4">
                 <div className="service-content-inner">
-                  <a href="" className="h4 mb-4 d-inline-flex text-start">
-                    <FontAwesomeIcon icon={faCloud} size="1x" className="me-2" />
-                    Database support
+                  <a
+                    href="/OutSourcing"
+                    className="h4 mb-4 flex items-center justify-center text-start"
+                  >
+                    <FontAwesomeIcon icon={faBook} className="mr-2" />
+                    Security Solution
                   </a>
-                  <p className="mb-4">Comprehensive cloud database services for businesses of all sizes.</p>
-                  <a className="btn btn-light rounded-pill py-2 px-4" href="/SoftwareTraining">
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-6 col-lg-5 col-xl-5 wow fadeInUp" data-wow-delay="0.5s">
-            <div className="service-item bg-light rounded">
-              <div className="service-img">
-                <img src="/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 3" />
-              </div>
-              <div className="service-content text-center p-4">
-                <div className="service-content-inner">
-                  <a href="#" className="h4 mb-4 d-inline-flex text-start">
-                    <FontAwesomeIcon icon={faCloud} size="1x" className="me-2" />
-                    Operating system support
-                  </a>
-                  <p className="mb-4">Seamless cloud OS installation and troubleshooting across platforms.</p>
-                  <a className="btn btn-light rounded-pill py-2 px-4" href="#">
-                    Read More
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-6 col-lg-4 col-xl-5 wow fadeInUp" data-wow-delay="0.5s">
-            <div className="service-item bg-light rounded">
-              <div className="service-img">
-                <img src="/Software-Logos/img-2.jpg" className="img-fluid w-100 rounded-top" alt="Service 4" />
-              </div>
-              <div className="service-content text-center p-4">
-                <div className="service-content-inner">
-                  <a href="#" className="h4 mb-4 d-inline-flex text-start">
-                    <FontAwesomeIcon icon={faCloud} size="1x" className="me-2" />
-                    Network support
-                  </a>
-                  <p className="mb-4">Secure and flexible cloud network solutions tailored to your needs</p>
-                  <a className="btn btn-light rounded-pill py-2 px-4" href="#">
+                  <p className="mb-4">
+                    Secure and flexible cloud network solutions tailored to your
+                    needs
+                  </p>
+                  <a className="bg-cyan-400 rounded-full py-2 px-4" href="#">
                     Read More
                   </a>
                 </div>

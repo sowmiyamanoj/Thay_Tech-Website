@@ -43,7 +43,7 @@
 .fade-in-section.is-visible {
   opacity: 1;
   transform: translateY(0);
-  animation: fadeInLeft 3s ease-out;
+  animation: fadeInLeft 2s ease-out;
 }
 
 /* Flex container for each section */
@@ -165,7 +165,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url("/Software-Logos/img7.jpg"); /* Replace with your image URL */
+  background-image: url("/development/software_development/Soft-img5.jpg"); /* Replace with your image URL */
   background-size: cover;
   background-position: center;
   filter: blur(8px);
