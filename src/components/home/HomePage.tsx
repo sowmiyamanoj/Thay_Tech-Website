@@ -1,12 +1,14 @@
 import React from 'react';
-import Carousel from './Carousel';
 import ClientLogos from './ClientLogos'
 import AccordionImage from './AccordionImage'
+import Carousel1 from './Carousel1';
+import HomeContent from './HomeContent';
 
 const HomePage: React.FC = () => {
   return (
     <div className="homepage">
-      <Carousel />
+      <Carousel1 />
+      <HomeContent/>
       <ClientLogos />
       <AccordionImage/>
     </div>

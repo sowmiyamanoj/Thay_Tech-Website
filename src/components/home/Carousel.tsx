@@ -91,7 +91,6 @@ const Carousel: React.FC = () => {
                         <img src={item.src} alt={`Thumbnail ${index + 1}`} />
                         <div className="content">
                             <div className="title">Name Slider {index + 1}</div>
-                            <div className="description">Description</div>
                         </div>
                     </div>
                 ))}

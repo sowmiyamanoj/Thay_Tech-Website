@@ -7,35 +7,35 @@ interface Place {
   description: string;
 }
 
-// Array of place objects with descriptions using HTML line breaks
+
 const places: Place[] = [
   {
-    name: 'Taj Mahal',
-    image: 'img1.avif',
-    description:
-      '• A magnificent white marble mausoleum.<br />• Located in Agra, India.<br />• Built by Mughal Emperor Shah Jahan.',
-  },
-  {
-    name: 'Marina Bay',
-    image: 'img2.avif',
-    description:
-      '• A vibrant waterfront with iconic skyline.<br />• Located in Singapore.<br />• Features the Marina Bay Sands and Gardens by the Bay.',
-  },
-  {
-    name: 'Great Wall',
-    image: 'img3.avif',
+    name: 'IT Consulting',
+    image: 'img3.jpg',
     description:
       '• A historic fortification stretching over 13,000 miles.<br />• Built to protect against invasions.<br />• Extends across northern China.',
   },
   {
-    name: 'Statue Liberty',
-    image: 'img4.avif',
+    name: 'Cloud Support',
+    image: 'img9.jpg',
+    description:
+      '• A vibrant waterfront with iconic skyline.<br />• Located in Singapore.<br />• Features the Marina Bay Sands and Gardens by the Bay.',
+  },
+  {
+    name: 'Development',
+    image: 'img0.jpg',
+    description:
+  "•  Tailored software solutions.<br />• Agile project management.<br />• Innovation and quality focus."
+   },
+  {
+    name: 'Outsourcing',
+    image: 'img7.avif',
     description:
       '• A symbol of freedom and democracy.<br />• Gift from France to the USA.<br />• Located on Liberty Island in New York Harbor.',
   },
   {
-    name: 'Fuji Mountain',
-    image: 'img5.avif',
+    name: 'Software Training',
+    image: 'img10.jpg',
     description:
       '• An iconic and sacred mountain in Japan.<br />• The highest peak in Japan.<br />• A popular site for pilgrimage and climbing.',
   },
