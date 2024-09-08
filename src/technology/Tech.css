@@ -1,0 +1,489 @@
+/* .body {
+  margin: 0;
+  padding: 0;
+ 
+} */
+/* .p-6{
+  padding : 2rem
+} */
+
+/* Existing keyframes and animations remain unchanged */
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateY(20%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes downToUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-down-to-up {
+  animation: downToUp 2s ease-out forwards;
+}
+
+/* Initial state: hidden */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+/* When the element is in view */
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeInLeft 3s ease-out;
+}
+
+/* Flex container for each section */
+/* .content-box {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 5% 4%;
+  box-sizing: border-box;
+  width: 100%;
+} */
+
+/* For rows with text and image */
+/* .content-box img {
+  max-width: 100%;
+  height: 50%;
+  border-radius: 15px;
+} */
+
+/* Content section styling */
+/* .content {
+  font-family: Georgia;
+  flex: 1;
+} */
+
+/* Ensure image sections do not exceed a max-width */
+/* .img {
+  flex: 1;
+  margin-right: 20px;
+} */
+
+/* Add a specific width to the image if needed */
+/* .img img {
+  max-width: 100%; 
+  height: 90%;
+} */
+
+/* Responsive Adjustments */
+@media (max-width: 1050px) {
+  .content-box {
+    flex-direction: column;
+    align-items: flex-start;
+    height: auto;
+  }
+  .content {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .img {
+    margin-right: 0; /* Remove margin on smaller screens */
+    margin-bottom: 20px;
+  }
+}
+
+
+/* .box {
+  position: relative; 
+  height: 100vh; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; 
+} */
+
+/* .box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/public/service_images/tech.jpg"); 
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  z-index: -1; 
+
+
+/* Header Css */
+@keyframes downToUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+/* Animation class */
+.animate-down-to-up {
+  animation: downToUp 2s ease-out forwards;
+}
+
+@keyframes rightToLeft {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Animation class for image */
+.animate-right-to-left {
+  animation: rightToLeft 2s ease-out forwards;
+}
+
+/* Full-screen header content */
+
+.header-content img {
+  max-width: 85%;
+  align-items: center;
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+.header-content h1 {
+  font-size: 4rem;
+  margin-left: 20px; /* Default font size */
+}
+
+.header-content p {
+  font-size: 1.25rem;
+  margin-left: 20px; /* Default font size */
+}
+
+
+
+/* .about-img {
+  position: relative;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 20px; 
+}
+
+.about-img::before {
+  content: "";
+  position: absolute;
+  width: calc(100% - 20px); 
+  height: 10px;
+  top: -30px;
+  right: 0;
+  border-radius: 10px;
+  background: var(--bs-secondary);
+}
+
+.about-img::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: calc(100% - 20px); 
+  left: -30px;
+  bottom: 30px;
+  border-radius: 10px;
+  background: var(--bs-secondary);
+} */
+
+/* .about-img .about-exp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  background: var(--bs-secondary);
+  color: var(--bs-white);
+  border: 1px solid var(--bs-secondary);
+  margin-top: -30px;
+  margin-left: -30px;
+  border-radius: 10px;
+} */
+
+/* .about-img-container {
+  border: 1px solid var(--bs-secondary);
+  margin-left: -30px;
+  border-radius: 10px;
+  padding-left: 10px; 
+} */
+
+/* .image-border {
+  border-left: 10px solid #1b5ea6;
+  border-top: 10px solid #007bff;
+  border-radius: 10px;
+  padding-left: 10px; 
+} */
+
+.image-container img {
+  display: block;
+  width: 100%; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.image-border {
+  position: relative; /* Ensure the container is positioned relative */
+  border-left: 10px solid #041f3b; /* Left border color */
+  border-top: 10px solid #041f3b; /* Top border color */
+  border-radius: 10px; /* Border radius */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+}
+
+.image-border img {
+  max-width: 100%; /* Ensure the image does not overflow */
+  height: auto;
+  border-radius: 2cap;
+  /* Maintain aspect ratio */
+}
+
+.small-rectangle {
+  position: absolute; /* Ensure it is positioned relative to its container */
+  top: 0; /* Align with the top of the image */
+  left: 0; /* Align with the left of the image */
+  width: 340px; /* Adjust size as needed */
+  height: 100px; /* Adjust size as needed */
+  background-color: #041f3b; /* Adjust color as needed */
+  border: 1px solid #041f3b;
+  border-radius: 0 0 10px 0;
+  z-index: 1; /* Ensure it stays above the image */
+  box-shadow: none; /* Ensure no shadow is applied */
+  margin-top: -5px;
+  margin-left: -5px;
+  display: flex; /* Center content horizontally and vertically */
+  align-items: center;
+  justify-content: center;
+  color: #fff; /* Text color */
+  font-size: 20px; /* Adjust font size as needed */
+  font-weight: bold; /* Adjust font weight as needed */
+}
+
+/* .about-img {
+  position: relative;
+  padding-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.about-img::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  top: -30px;
+  right: 0;
+  border-radius: 10px;
+  background: var(--bs-secondary);
+}
+
+.about-img::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  left: -30px;
+  bottom: 30px;
+  border-radius: 10px;
+  background: var(--bs-secondary);
+} */
+
+/* .about-img .about-exp {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  background: var(--bs-secondary);
+  color: var(--bs-white);
+  border: 1px solid var(--bs-secondary);
+  margin-top: -30px;
+  margin-left: -30px;
+  border-radius: 10px;
+} */
+.rectangle-content {
+  text-align: center; /* Center the text */
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Adding fadeInLeft animation to elements */
+.fadeInLeft {
+  animation: fadeInLeft 2s ease-out forwards;
+}
+
+/* Initial state: hidden */
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+/* When the element is in view */
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Fade In Right Keyframes */
+@keyframes fadeInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Adding fadeInRight animation to elements */
+.fadeInRight {
+  animation: fadeInRight 3s ease-out;
+}
+ 
+
+
+/* Responsive Grid Layout */
+.about {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .about {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about {
+    gap: 3rem;
+  }
+}
+
+/* Font Sizing for Headings and Text */
+h1 {
+  font-size: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+
+p {
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  p {
+    font-size: 1.5rem;
+  }
+}
+
+/* Image Responsiveness */
+.image-container img {
+  width: 150%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.small-rectangle {
+  width: 280px;
+  height: 80px;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  .small-rectangle {
+    width: 320px;
+    height: 90px;
+    font-size: 1.25rem;
+  }
+}
+
+/* Card Flexbox Responsiveness */
+.flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+.bg-gray-100 {
+  padding: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .bg-gray-100 {
+    padding: 2rem;
+  }
+}
+
+/* Responsive Button Styling */
+a.bg-blue-600 {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+  a.bg-blue-600 {
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+  }
+}
+
