@@ -1,0 +1,6 @@
+Date : 12/09/2024
+Day : Thursday
+   
+-Changed the CSS file into TailwindCSS
+
+-------------------------------------------------------------------------------gi

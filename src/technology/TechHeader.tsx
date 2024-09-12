@@ -22,6 +22,9 @@ const TechHeader = () => {
           />
         </div>
       </div>
+      <div className="relative border-l-10 border-t-10 border-[#041f3b] rounded-lg p-0 m-0">
+ 
+</div>
       <div className="relative -mt-12 lg:-mt-24">
         <svg
           viewBox="0 0 1428 174"
